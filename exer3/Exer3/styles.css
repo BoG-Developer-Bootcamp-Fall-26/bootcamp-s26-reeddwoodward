@@ -1,3 +1,9 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .header {
     background-color: rgb(173, 173, 173);
     display: flex;
@@ -36,9 +42,10 @@
 .container {
     display: flex;
     flex-direction: row;
-    margin-right: auto;
+    justify-content: end;
+    margin-right: 1em;
     width: 100em;
-    
+
 }
 
 .link {
@@ -49,9 +56,42 @@
     width: 4em;
     display: flex;
     justify-content: center;
-    margin-left: auto;
-
+    margin-left: .4em;
+    margin-right: .4em;
     color: white;
     text-decoration: underline;
 
+}
+
+.containerSearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    align-content: center;
+    justify-content: start;
+}
+
+.search {
+    display: flex;
+    align-content: center;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 1em;
+    font-size: 1.5rem;
+    width: 80vw;
+    height: 10vh;
+    border-radius: 1.5rem;
+    border: .1em solid;
+    border-color: black;
+    background-color: rgb(173, 173, 173);
 }
