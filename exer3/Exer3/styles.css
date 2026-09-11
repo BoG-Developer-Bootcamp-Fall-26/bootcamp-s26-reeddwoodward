@@ -1,7 +1,7 @@
 .header {
     background-color: rgb(173, 173, 173);
     display: flex;
-    flex-direction: flex-start;
+    flex-direction: row;
     margin-top: 0px;
     width: 100vw;
     height: 10vh;
@@ -31,4 +31,27 @@
     display: flex;
     margin-left: auto;
     
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    width: 100em;
+    
+}
+
+.link {
+    background-color: blue;
+    padding: .5em;
+    height: 1em;
+    margin: 1em;
+    width: 4em;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+
+    color: white;
+    text-decoration: underline;
+
 }
