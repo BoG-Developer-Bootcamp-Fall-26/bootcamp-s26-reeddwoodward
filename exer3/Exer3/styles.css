@@ -107,8 +107,6 @@
     padding-left: 1em;
     padding-right: 1em;
     margin-right: 1em;
-
-    transition: background-color 0.3s ease-in-out;
 }
 
 .button:hover {
@@ -188,9 +186,69 @@
     position: absolute;
     left:0;
     margin-left: 1em;
-    transition: background-color 0.3s ease-in-out;
 }
 
 .backButton:hover {
     background-color: rgb(184, 184, 184);
+}
+
+.flexCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.descContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 10;
+    margin-left: 2em;
+}
+
+.desc {
+    background-color: rgb(184, 184, 184);
+    width: 40em;
+    height: 8em;
+    margin-top: 1em;
+    margin-left: 3em;
+}
+
+.card {
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 3;
+    margin-right: 3em;
+    min-width: 15em;
+    height: 22em;
+    margin-left: 5em;
+}
+
+.descHeader {
+    position: relative;
+    top: .3em;
+    left: .3em;
+    font-size: 1.3rem;
+}
+
+.profilePic {
+    width: 10em;
+    height: auto !important;
+    align-self: center;;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: .1em solid;
+    border-color: black;
+
+}
+
+.cardDesc {
+    border-top: .1em solid;
+    border-color: black;
+    flex-grow: 1;
+    padding-top: 1em;
+    padding-left: 1em;
 }
