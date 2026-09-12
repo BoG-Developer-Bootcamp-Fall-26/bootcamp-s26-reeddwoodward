@@ -102,6 +102,17 @@
     justify-content: center;
     align-items: center;
     text-decoration: underline;
+    color: black;
+
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 1em;
+
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgb(77, 175, 255);
 }
 
 .search {
@@ -119,6 +130,13 @@
     border: .1em solid;
     border-color: black;
     background-color: rgb(173, 173, 173);
+
+    margin-left: 1em;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
 }
 
 .footer {
@@ -138,4 +156,41 @@
     margin: 0;
     padding: 0;
     width: 100%;
+}
+
+.sHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    border-bottom: .1em solid;
+    border-color: black;
+    height: 15vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.backButton {
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    margin: .5em;
+   
+    padding: .5em;
+    display: flex;
+    position: absolute;
+    left:0;
+    margin-left: 1em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.backButton:hover {
+    background-color: rgb(184, 184, 184);
 }
