@@ -221,7 +221,8 @@
     justify-content: center;
     flex: 3;
     margin-right: 3em;
-    min-width: 15em;
+    min-width: 12em;
+    max-width: 12em;
     height: 22em;
     margin-left: 5em;
 }
@@ -248,6 +249,7 @@
 .cardDesc {
     border-top: .1em solid;
     border-color: black;
+    font-size: .9rem;
     flex-grow: 1;
     padding-top: 1em;
     padding-left: 1em;
